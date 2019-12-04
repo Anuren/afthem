@@ -1,0 +1,38 @@
+{
+  "name": "conduit-angularjs",
+  "version": "1.0.0",
+  "description": "Angular frontend for Conduit",
+  "author": "Thinkster",
+  "license": "MIT",
+  "dependencies": {
+    "angular": "^1.5.0-rc.2",
+    "angular-ui-router": "^0.4.2",
+    "babel-preset-es2015": "^6.3.13",
+    "babelify": "^7.2.0",
+    "browser-sync": "^2.11.1",
+    "browserify": "^13.0.0",
+    "browserify-ngannotate": "^2.0.0",
+    "gulp": "^3.9.1",
+    "gulp-angular-templatecache": "^1.8.0",
+    "gulp-notify": "^2.2.0",
+    "gulp-rename": "^1.2.2",
+    "gulp-uglify": "^1.5.3",
+    "gulp-util": "^3.0.7",
+    "marked": "^0.3.5",
+    "merge-stream": "^1.0.0",
+    "vinyl-source-stream": "^1.1.0"
+    "scripts": {
+    "ng": "ng",
+    "start": "ng serve",
+    "build": "ng build",
+    "test": "ng test",
+    "lint": "ng lint",
+    "e2e": "ng e2e",
+    "prod-build-dev": "ng build --prod --build-optimizer",
+    "prod-build-staging": "ng build --prod --configuration=staging --build-optimizer"
+    "assets": [ "src/favicon.ico",
+    "src/assets",
+    "src/web.config"]
+  }
+  }
+}
